@@ -8,7 +8,7 @@ module.exports = {
   apiKey: process.env.API_KEY,
   apiSecret: process.env.API_SECRET,
   urlDbProd: process.env.MONGO_UDL_PROD,
-  urlDbLocal: process.env.MONGO_UDL_LOCAL,
+  urlDbLocal: process.env.MONGO_URL_LOCAL,
   cloudinaryUrl: process.env.CLOUDINARY_URL,
   cloudinaryStoredFolder: process.env.CLOUDINARY_STORED_FOLDER
 };
